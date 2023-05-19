@@ -1,0 +1,42 @@
+.text-editor {
+    background: white;
+    height: calc(100vh - 100px);
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    border: 1px solid #494242;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally using justify-content: center; */
+    align-items: center;
+}
+
+.text-editor .DraftEditor-root {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* .text-editor::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 1px solid #494242;
+    width: 50px;
+} */
+
+.text-editor::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    margin-top: 170px;
+    right: 0;
+    height: 10px;
+    background: repeating-linear-gradient(to right, #ccc 0, #ccc 1px, transparent 2px, transparent 4px);
+    transform: scale(0.45);
+}

@@ -1,0 +1,40 @@
+.ruler {
+    display: flex;
+    justify-content: start;
+    background: #f0f0f0;
+    /* Light grey background similar to Google Docs */
+    height: 30px;
+    /* Adjust as necessary */
+    border-bottom: 1px solid #ccc;
+    /* Creates the line under the ruler */
+    padding-left: 80px;
+    /* You might want some padding to match the Google Docs layout */
+}
+
+.major-tick,
+.minor-tick {
+    height: 10px;
+    border-top: 1px solid #ccc;
+    /* Creates the horizontal lines */
+    position: relative;
+    width: 40px;
+    /* Adjust as necessary */
+}
+
+.major-tick span,
+.minor-tick span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    /* Adjust as necessary */
+}
+
+.major-tick {
+    height: 20px;
+}
+
+.minor-tick {
+    height: 10px;
+}
