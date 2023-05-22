@@ -1,0 +1,55 @@
+.text-editor {
+    background: white;
+    height: calc(100vh - 100px);
+    margin-left: 340px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    border: 1px solid #494242;
+
+    top: 0;
+
+}
+
+.editor-container {
+    padding: 10px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    top: 0px;
+    margin-top: 0px;
+    /* other styles as needed */
+}
+
+
+.text-editor .DraftEditor-root {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.text-editor .public-DraftEditor-content {
+    text-align: left;
+    padding-top: 0;
+}
+
+/* .text-editor::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 1px solid #494242;
+    width: 50px;
+} */
+
+/* .text-editor::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: repeating-linear-gradient(to right, #555555 0, #555555 1px, transparent 1px, transparent 6px);
+} */
