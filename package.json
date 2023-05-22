@@ -4,7 +4,8 @@
   "description": "googledoc",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,23 @@
   },
   "homepage": "https://github.com/sakshipathak35/googledocss#readme",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "@material-ui/icons": "^4.11.3",
+    "draft-js": "^0.11.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^3.3.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
