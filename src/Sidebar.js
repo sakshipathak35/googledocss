@@ -12,7 +12,7 @@ import googledrive from './googledrive.png';
 const Sidebar = () => (
     <div className='sidebar'>
         <Tooltip title="Google meet">
-            <Button style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '50px' }} >
+            <Button style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '50px', marginTop: '19px' }} >
                 <img src={googlemeet} alt="pen" style={{ width: '30px', height: '30px' }} />
             </Button>
         </Tooltip>
