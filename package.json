@@ -4,6 +4,7 @@
   "description": "googledoc",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
     "test": "npm start",
     "build": "react-scripts build"
   },
@@ -16,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/sakshipathak35/googledocss/issues"
   },
-  "homepage": "https://github.com/sakshipathak35/googledocss#readme",
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
     "draft-js": "^0.11.7",

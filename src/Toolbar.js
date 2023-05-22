@@ -483,7 +483,7 @@ function CustomToolbar({ onUndo, onRedo }) {
                         </IconButton>
                     </Tooltip>
                     <Tooltip title="Editing mode">
-                        <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleCLICK} style={{ borderRadius: '40px', textTransform: 'none', marginLeft: '50px', padding: '-6px 6px' }} >
+                        <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleCLICK} style={{ borderRadius: '40px', textTransform: 'none', marginLeft: '450px', padding: '-6px 6px' }} >
                             <img src={pen} alt="pen" style={{ width: '15px', height: '15px', marginRight: '10px' }} />
                             Editing Mode
                             <ArrowDropDownIcon />
@@ -501,7 +501,7 @@ function CustomToolbar({ onUndo, onRedo }) {
                         <MenuItem onClick={handleCLOSE}>Option 3</MenuItem>
                     </Menu>
                     <Tooltip title="Hide the menus (Ctrl+Shift+F)">
-                        <IconButton color="inherit" style={{ borderRadius: '0px', marginTop: '-1px', padding: '6px 6px', marginLeft: '4px' }}>
+                        <IconButton color="inherit" style={{ borderRadius: '0px', marginTop: '-1px', padding: '6px 6px', marginLeft: '00px' }}>
                             <img src={uppertick} alt="uppertick" style={{ width: '15px', height: '15px' }} />
                         </IconButton>
                     </Tooltip>
