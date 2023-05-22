@@ -17,7 +17,7 @@ function Ruler() {
             height: "40px",
             position: "absolute",
             top: '2px',
-            left: '73%',  // Center horizontally
+            left: '67%',  // Center horizontally
             transform: 'translateX(-50%)', // Correct offset
             zIndex: 1,
             alignItems: "flex-end",

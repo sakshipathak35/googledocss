@@ -1,7 +1,7 @@
 .text-editor {
     background: white;
     height: calc(100vh - 100px);
-    margin-left: 540px;
+    margin-left: 350px;
     padding: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     flex-grow: 1;
