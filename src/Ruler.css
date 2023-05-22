@@ -1,40 +1,29 @@
 .ruler {
-    display: flex;
-    justify-content: start;
-    background: #f0f0f0;
-    /* Light grey background similar to Google Docs */
-    height: 30px;
-    /* Adjust as necessary */
-    border-bottom: 1px solid #ccc;
-    /* Creates the line under the ruler */
-    padding-left: 80px;
-    /* You might want some padding to match the Google Docs layout */
-}
-
-.major-tick,
-.minor-tick {
-    height: 10px;
-    border-top: 1px solid #ccc;
-    /* Creates the horizontal lines */
-    position: relative;
-    width: 40px;
-    /* Adjust as necessary */
-}
-
-.major-tick span,
-.minor-tick span {
-    position: absolute;
-    bottom: 0;
+    display: grid;
+    /* Use grid instead of flex */
+    grid-template-columns: repeat(10, 1fr);
+    /* Create 10 columns of equal width */
+    align-items: center;
+    justify-items: center;
+    /* Center content within each grid cell */
+    background: #7b3e3e;
     width: 100%;
-    text-align: center;
-    font-size: 10px;
-    /* Adjust as necessary */
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1;
 }
 
 .major-tick {
-    height: 20px;
+    border-right: 1px solid #ccc;
 }
 
-.minor-tick {
-    height: 10px;
+.major-tick:last-child {
+    border-right: none;
+}
+
+.major-tick span {
+    font-size: 12px;
 }

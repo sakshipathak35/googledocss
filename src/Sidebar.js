@@ -1,43 +1,44 @@
 import React from 'react';
 import './Sidebar.css';
-import { IconButton, Tooltip } from '@material-ui/core';
-import HomeIcon from '@material-ui/icons/Home';
-import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
-import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import DuoIcon from '@material-ui/icons/Duo';
-import ContactsIcon from '@material-ui/icons/Contacts';
+import { IconButton, Button, Tooltip } from '@material-ui/core';
+
+import googlemeet from './googlemeet.png';
+import gmail from './gmail.png';
+import google from './google.png';
+import chrome from './chrome.png';
+import googlephotos from './googlephotos.png';
+import googledrive from './googledrive.png';
 
 const Sidebar = () => (
     <div className='sidebar'>
-        <Tooltip title="Home">
-            <IconButton>
-                <HomeIcon />
+        <Tooltip title="Google meet">
+            <Button style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '50px' }} >
+                <img src={googlemeet} alt="pen" style={{ width: '30px', height: '30px' }} />
+            </Button>
+        </Tooltip>
+        <Tooltip title="Gmail">
+            <IconButton style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '20px' }}>
+                <img src={gmail} alt="gmail" style={{ width: '30px', height: '30px' }} />
             </IconButton>
         </Tooltip>
-        <Tooltip title="Docs">
-            <IconButton>
-                <InsertDriveFileIcon />
+        <Tooltip title="Google">
+            <IconButton style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '20px' }}>
+                <img src={google} alt="google" style={{ width: '30px', height: '30px' }} />
             </IconButton>
         </Tooltip>
-        <Tooltip title="Calendar">
-            <IconButton>
-                <CalendarTodayIcon />
+        <Tooltip title="Chrome">
+            <IconButton style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '20px' }}>
+                <img src={chrome} alt="chrome" style={{ width: '30px', height: '30px' }} />
             </IconButton>
         </Tooltip>
-        <Tooltip title="Mail">
-            <IconButton>
-                <MailOutlineIcon />
+        <Tooltip title="Google photos">
+            <IconButton style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '20px' }}>
+                <img src={googlephotos} alt="googlephotos" style={{ width: '30px', height: '30px' }} />
             </IconButton>
         </Tooltip>
-        <Tooltip title="Duo">
-            <IconButton>
-                <DuoIcon />
-            </IconButton>
-        </Tooltip>
-        <Tooltip title="Contacts">
-            <IconButton>
-                <ContactsIcon />
+        <Tooltip title="Google drive">
+            <IconButton style={{ borderRadius: '0px', padding: '6px 6px', marginRight: '20px' }}>
+                <img src={googledrive} alt="googledrive" style={{ width: '30px', height: '30px' }} />
             </IconButton>
         </Tooltip>
     </div>

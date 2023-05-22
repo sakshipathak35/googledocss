@@ -1,13 +1,13 @@
 .toolbar {
     display: flex;
-    justify-content: space-between;
-    background: white;
+
+    background-color: #f1f4f6;
     padding: 10px;
     position: fixed;
     top: 0;
     width: calc(100% - 100px);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .document-title {
